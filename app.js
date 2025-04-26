@@ -90,7 +90,7 @@ More Hints: The existing starter Pokemon will be *replaced* in your party with t
 Solve Exercise 7 here:
 */
 
-currentTeam[0] = pokemon[1];
+game.party.splice(0, 1, pokemon[1]);
 
 /*
 Exercise 8
